@@ -2,12 +2,11 @@
     margin:0px;
 }
 main{
-    width:100%;
-    background: rgb(240, 239, 239);
-    background: linear-gradient(to top,rgba(106, 118, 180, 0.9 ),rgba(0, 3, 18, 0.6)), url("../../images/school-gcap.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    width:96%;
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(to bottom, #6aa1ff, #b8d0ff);
+    color: #fff;
 }
 .img{
     width:100%;
@@ -17,13 +16,13 @@ main{
     z-index: 10px; 
 }
 .img p,.img a{
+    color: #fff;
     padding-left:2%;
 }
 .img .span{
     
-	font-family:'Blackadder ITC' ,Algerian;
-    color:white;
-    font-size:50px;
+    text-align: center;
+    padding: 5rem 2rem;
 }
 .img .button{ 
     border: solid black 1px;
@@ -95,20 +94,18 @@ main{
     transition: .4s;
     margin:1% 43%;
 }
-.about-us::-webkit-scrollbar {
-    display: none;
-}
 /*news part*/
 .news-h1{
     padding:2%;
     background: whitesmoke;
     text-decoration: underline green;
+    color: black;
 }
 .news-container{
     width:100%;
     display:flex;
     justify-content: space-around;
-    background: whitesmoke;
+    background: rgb(216, 216, 219);
 }
 
 .news{
@@ -144,6 +141,7 @@ transition: 1.2s;
 .login{
     width:45%;
     background-color: #eadfdf;
+    color: black;
 }
 .video {
     width:55%;

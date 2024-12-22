@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 /*  DESIGN FOR SMALL SCREEN */
+.body{
+	background: blue;
+}
 
 .hero {
 	background: linear-gradient(#3ab6bf5e, #1a5271c7),
