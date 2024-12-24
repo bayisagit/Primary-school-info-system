@@ -17,7 +17,7 @@
     text-decoration: none;
 }
 
-.left, .i2, .i3 {
+.left, .i2{
     width: 30%; /* Adjust width for three sections */
 }
 
@@ -38,23 +38,6 @@
     text-align: left; /* Align contact info left */
 }
 
-.i3 {
-    text-align: right; /* Align email right */
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.footer-icons a {
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    margin: 5px 2px;
-    padding: 10px 0;
-}
 
 .bottom {
     margin-top: 20px;
@@ -63,16 +46,12 @@
     color: black;
 }
 
-.footer-icons a:hover {
-    background-color:red#23025c;
-}
-
 @media only screen and (max-width: 1003px) {
     .top {
         flex-direction: column;
         align-items: flex-start; /* Align items to the start for mobile */
     }
-    .left, .i2, .i3 {
+    .left, .i2{
         width: 100%; /* Full width on mobile */
         margin-top: 20px; /* Spacing between sections */
     }

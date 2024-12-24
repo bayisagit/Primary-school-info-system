@@ -10,11 +10,6 @@ header {
     justify-content: space-between;
 }
 
-.header_n .fa {
-    font-size: 30px;
-    color: whitesmoke;
-}
-
 .hero_nav {
     display: none; /* Initially hidden */
     background-color: rgb(13, 13, 30);
